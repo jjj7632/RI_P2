@@ -57,6 +57,7 @@ cap = cv2.VideoCapture("path/to/video.mp4")
 Usage
 
 Run the main script:
+cd partD
 python partD.py
 
 The window will open your live webcam feed.
@@ -64,7 +65,7 @@ Press keys (b, d, t) to switch between modes.
 Videos and background plate images will be automatically saved in the outputs/ folder.
 
 Project Structure
-proj2/
+partD/
 ├─ partD.py              # Main integrated application
 ├─ outputs/              # Folder where results are saved
 │  ├─ foreground_mask.mp4
